@@ -1,0 +1,111 @@
+default-colors:
+- 
+    name: Electric Blue
+    hex: '#3E8AFC'
+    rgb: '62,138,252'
+    PMS: ''
+- 
+    name: BC Midnight Blue
+    hex: '#1C2A3A'
+    rgb: '28,42,58'
+- 
+    name: BC Cadet Gray
+    hex: '#AAB3C2'
+    rgb: '170,179,194'
+- 
+    name: Gunmetal Gray
+    hex: '#313438'
+    rgb: '49,52,56'
+- 
+    name: BC Calm White
+    hex: '#F8F8F8'
+    rgb: '248,248,248'
+
+secondary-colors:
+- 
+    name: BC Coral
+    hex: '#FD755F'
+    rgb: '253,117,95'
+    d-name: BC Mahogany
+    d-hex: '#351B1A'
+    d-rgb: '53,27,26'
+- 
+    name: BC Orange Peel
+    hex: '#F9A03E'
+    rgb: '249,160,62'
+    d-name: BC Dark Orange
+    d-hex: '#473623'
+    d-rgb: '71,54,35'    
+- 
+    name: BC Vibrant Green
+    hex: '#17E5A1'
+    rgb: '23,229,161'
+    d-name: BC Deep Green
+    d-hex: '#0E7F56'
+    d-rgb: '14,127,86' 
+- 
+    name: BC Turquoise
+    hex: '#38E0DC'
+    rgb: '56,224,220'
+    d-name: BC Teal
+    d-hex: '#0D7F79'
+    d-rgb: '13,127,121'
+- 
+    name: BC Purple
+    hex: '#792EE5'
+    rgb: '121,46,229'
+    d-name: BC Deep Purple
+    d-hex: '#341466'
+    d-rgb: '52,20,102'         
+    
+accessability:
+- 
+    name: Blue
+    hex: '#0000E0'
+    rgb: '0,0,224'
+- 
+    name: Green
+    hex: '#134D13'
+    rgb: '19,77,19'
+- 
+    name: Purple
+    hex: '#561B8D'
+    rgb: '86,27,141'
+- 
+    name: Orange
+    hex: '#804600'
+    rgb: '128,70,0'
+- 
+    name: Red
+    hex: '#8B0000'
+    rgb: '139,0,0'
+- 
+    name: Grey
+    hex: '#3E3E3E'
+    rgb: '62,62,62'
+
+accessability-alt:
+- 
+    name: Blue
+    hex: '#000060'
+    rgb: '0,0,96'
+- 
+    name: Green
+    hex: '#082213'
+    rgb: '8,34,19'
+- 
+    name: Purple
+    hex: '#3B0053'
+    rgb: '59,0,83'
+- 
+    name: Orange
+    hex: '#3C2109'
+    rgb: '60,33,9'
+- 
+    name: Red
+    hex: '#550000'
+    rgb: '85,0,0'
+- 
+    name: Black
+    hex: '#000000'
+    rgb: '0,0,0'

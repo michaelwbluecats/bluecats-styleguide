@@ -1,0 +1,50 @@
+---
+layout: information
+meta-title: BlueCats - Media
+meta-description: BlueCats icons in use
+---
+
+<h1>Media</h1>
+<hr>
+<h3>Videos</h3>
+
+<div class="row">
+  {{#each global.video}}            
+    <div class="small-12 medium-6 column">
+        <h3 class="subheader">{{name}}</h3>   
+        <p><a href="{{link}}" download="" >Download</a></p>
+        <div class="responsive-embed widescreen">
+          <video width="1920" height="1080" src="{{link}}" frameborder="0" allowfullscreen controls></video>
+        </div>    
+    </div>
+    {{/each}}
+</div>
+<hr>
+<h3>Beacon Images</h3>
+<p><a href="assets/img/devices/zip/all-beacons.zip">Download the whole lot</a></p>
+
+<div class="row inline-list" data-equalizer data-equalize-on="small">
+  {{#each global.beaconImages}}        
+    <div class="small-6 large-3 columns"> 
+        <div data-equalizer-watch>
+        <h3 class="subheader">{{name}}</h3>
+        <table class="stacked">
+            <thead>
+                <tr>
+                    <th>ZIP Link - {{no-of-img}} images</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="{{link}}">Link</a></td>
+
+                </tr>
+            </tbody> 
+        </table>
+        <img src="{{sample}}">    
+        </div>
+    </div>    
+    {{/each}}
+</div>
+

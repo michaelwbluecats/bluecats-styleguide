@@ -1,0 +1,259 @@
+tab:
+- 
+    id: intro
+    title: Intro
+    partial: Hello there
+-   
+    id: brand-logo
+    title: Logo
+    partial: '{{> brand-logo }}' 
+-   
+    id: brand-typography
+    title: Typography
+-   
+    id: brand-colors
+    title: Colors
+-   
+    id: brand-icons
+    title: Icons
+-   
+    id: brand-accessability
+    title: Accessability
+-   
+    id: brand-diagrams
+    title: Diagrams & Icons
+-   
+    id: brand-photos
+    title: Photos
+    
+side-nav:
+- 
+    id: index
+    title: Intro
+-   
+    id: brand-logo
+    title: Logo
+-   
+    id: brand-typography
+    title: Typography
+-   
+    id: brand-colors
+    title: Colors
+-   
+    id: brand-media
+    title: Media
+#-   
+#    id: brand-accessability
+#    title: Accessability
+-   
+    id: brand-diagrams
+    title: Diagrams & Icons
+-   
+    id: templates
+    title: Slide decks & Templates    
+#-   
+#    id: brand-photos
+#    title: Photos
+
+-   
+    id: brand-printing
+    title: Printing
+-   
+    id: UI
+    title: UI Overview        
+-   
+    id: usage-policy
+    title: Usage Policy
+    
+
+logoFull:
+- 
+    name: Blue
+    sample: 'assets/img/logo/BCT001-BD-logo-v5-03.png'
+    png: 'assets/img/logo/BCT001-BD-logo-v5-03.png'
+    eps: 'assets/img/logo/BCT001-BD-logo-v5-03.eps'
+- 
+    name: Black
+    sample: 'assets/img/logo/BCT001-BD-logo-v5-01.png'
+    png: 'assets/img/logo/BCT001-BD-logo-v5-01.png'
+    eps: 'assets/img/logo/BCT001-BD-logo-v5-01.eps' 
+- 
+    name: White
+    sample: 'assets/img/logo/BCT001-BD-logo-v5-02.png'
+    png: 'assets/img/logo/BCT001-BD-logo-v5-02.png'
+    eps: 'assets/img/logo/BCT001-BD-logo-v5-02.eps'    
+    color: 'background-color:grey;' 
+
+logoRoundel:
+- 
+    name: Blue
+    sample: 'assets/img/logo/BCT001-BD-logo-v5-17.png'
+    png: 'assets/img/logo/BCT001-BD-logo-v5-17.png'
+    eps: 'assets/img/logo/BCT001-BD-logo-v5-17.eps'
+- 
+    name: Black
+    sample: 'assets/img/logo/BCT001-BD-logo-v5-16.png'
+    png: 'assets/img/logo/BCT001-BD-logo-v5-16.png'
+    eps: 'assets/img/logo/BCT001-BD-logo-v5-16.eps' 
+- 
+    name: White
+    sample: 'assets/img/logo/BCT001-BD-logo-v5-15.png'
+    png: 'assets/img/logo/BCT001-BD-logo-v5-15.png'
+    eps: 'assets/img/logo/BCT001-BD-logo-v5-15.eps'    
+    color: 'background-color:grey;'
+
+logoNow:
+- 
+    name: Color
+    sample: 'assets/img/logo/BCT075-01-Logo-v1-color.png'
+    png: 'assets/img/logo/BCT075-01-Logo-v1-color.png'
+    eps: 'assets/img/logo/BCT075-01-Logo-v1-color.eps'
+- 
+    name: Black
+    sample: 'assets/img/logo/BCT075-01-Logo-v1-black.png'
+    png: 'assets/img/logo/BCT075-01-Logo-v1-black.png'
+    eps: 'assets/img/logo/BCT075-01-Logo-v1-black.eps' 
+- 
+    name: White
+    sample: 'assets/img/logo/BCT075-01-Logo-v1-white.png'
+    png: 'assets/img/logo/BCT075-01-Logo-v1-white.png'
+    eps: 'assets/img/logo/BCT075-01-Logo-v1-white.eps'    
+    color: 'background-color:grey;'
+    
+logoLoop:
+- 
+    name: Full logo
+    sample: 'assets/img/logo/loop/BCT076-01-Logo-v1-full.png'
+    png: 'assets/img/logo/loop/BCT076-01-Logo-v1-full.png'
+- 
+    name: Minimum
+    sample: 'assets/img/logo/loop/BCT076-01-Logo-v1-min.png'
+    png: 'assets/img/logo/loop/BCT076-01-Logo-v1-min.png'
+- 
+    name: Loop Hospitality
+    sample: 'assets/img/logo/loop/BCT076-01-Logo-v1-hospitality.png'
+    png: 'assets/img/logo/loop/BCT076-01-Logo-v1-hospitality.png'
+- 
+    name: Loop-Roundel Color
+    sample: 'assets/img/logo/loop/PLUS-02-4-Loop-BC-C.png'
+    png: 'assets/img/logo/loop/PLUS-02-4-Loop-BC-C.png'
+- 
+    name: Loop-Roundel Black
+    sample: 'assets/img/logo/loop/PLUS-02-4-Loop-BC-B.png'
+    png: 'assets/img/logo/loop/PLUS-02-4-Loop-BC-B.png'
+- 
+    name: Loop-Roundel White
+    sample: 'assets/img/logo/loop/PLUS-02-4-Loop-BC-W.png'
+    png: 'assets/img/logo/loop/PLUS-02-4-Loop-BC-W.png' 
+    color: 'background-color:grey;'
+
+beaconImages: 
+-   
+    name: AA
+    no-of-img: '6'
+    link: 'assets/img/devices/AA/AA-render.zip'
+    sample: 'assets/img/devices/AA/BlueCats AA Beacon 3-4 View_White_R11.jpg'
+-   
+    name: Edge
+    no-of-img: '3'
+    link: 'assets/img/devices/AA/AA-render.zip'
+    sample: 'assets/img/devices/edge/IMGP2430-Edit.png'
+-   
+    name: Coin
+    no-of-img: '5'
+    link: 'assets/img/devices/coin/coin.zip'
+    sample: 'assets/img/devices/coin/IMGL9608-Edit.png'
+-   
+    name: USB
+    no-of-img: '2'
+    link: 'assets/img/devices/usb/usb.zip'
+    sample: 'assets/img/devices/usb/USB-Dongle-1.jpg'
+-   
+    name: Module
+    no-of-img: '4'
+    link: 'assets/img/devices/module/module.zip'
+    sample: 'assets/img/devices/module/PCB-Module_R2-1.png'
+-   
+    name: Table Flags
+    no-of-img: '4'
+    link: 'assets/img/devices/flags/table-flags.zip'
+    sample: 'assets/img/devices/flags/IMG_3913.png'    
+        
+diagrams:
+- 
+    heading: IoT diagram and partials (DIY)
+    img: 'assets/img/diagrams/iot/BCT001-MM-05-DOW-No dark spaces.png'
+    link: 'https://drive.google.com/drive/folders/0BzRHr_CKzJqLM2o0QkdoS3BFR0E?usp=sharing'
+- 
+    heading: Architecture diagrams
+    img: 'assets/img/diagrams/iot/BCT001-MM-05-Software-architecture-v3-Edge.png'
+    link: 'https://drive.google.com/drive/folders/0BzRHr_CKzJqLNVpOSjA0UFdlWUU?usp=sharing'   
+icons:
+- 
+    heading: Industry Icons
+    img: 'assets/img/icons/BCT001-BD-logo-v6-brand-circle.svg'
+    png: 'assets/img/icons/Industries-round-png.zip'
+    eps: 'assets/img/icons/Industries-round-eps.zip'
+- 
+    heading: Beacon Wireframes
+    img: 'assets/img/icons/BCT001-BD-logo-v6-brand-wireframes.svg'
+    png: 'assets/img/icons/Wireframes-png.zip'
+    eps: 'assets/img/icons/Wireframes-eps.zip'    
+    
+video:
+- 
+    name: Loop Intro Video
+    link: 'assets/img/media/BlueCats-Loop-Intro.mp4'
+    
+-   
+    name: Loop Gate Video
+    link: 'assets/img/media/BCT077-01-RFID 18_16(loop).mp4'
+    
+    
+icon-font:
+- 
+    css: bc-search
+- 
+    css: bc-beaker
+- 
+    css: bc-params
+- 
+    css: bc-trash
+- 
+    css: bc-bars
+- 
+    css: bc-logs
+- 
+    css: bc-add
+- 
+    css: bc-location
+- 
+    css: bc-cog
+- 
+    css: bc-lightbulb
+- 
+    css: bc-key
+- 
+    css: bc-database
+- 
+    css: bc-comment
+- 
+    css: bc-eye
+- 
+    css: bc-power
+- 
+    css: bc-places
+-  
+    css: bc-triangle
+- 
+    css: bc-edge
+- 
+    css: bc-graph
+- 
+    css: bc-person
+- 
+    css: bc-thing
+- 
+    css: bc-beacon
+- 
+    css: bc-dashboard

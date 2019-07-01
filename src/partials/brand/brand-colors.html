@@ -1,0 +1,58 @@
+<h2>Colors</h2>
+<hr>
+<h3>Primary Colors</h3>
+<p>Base brand colors</p>
+<div class="row">
+  {{#each brand-colors.default-colors}}     
+    <div class="small-6 medium-4 large-3 columns">
+        <div class="card">
+            <div class="card-divider" style="background-color: {{hex}}">
+                
+            </div>
+            <div class="card-section">
+                <h4>{{name}}</h4>
+                <p>HEX: {{hex}}</p>
+                <p>RGB: {{rgb}}</p> 
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
+<hr>
+<h3>Accessability Palette (Dark)</h3>
+<p>Based on the <a href="https://www.w3.org/TR/WCAG20/" target="_blank">AAA WCAG Standard</a>. For UI's with white text</p>
+<p>AAA Standard specifies a contrast ratio of 4.5:1 or greater - the colors below are roughly 9:1 or greater, for use with transparencies.</p> 
+<div class="row"> 
+  {{#each brand-colors.accessability}}      
+    <div class="small-6 medium-4 large-3 columns">
+        <div class="card">
+            <div class="card-divider" style="background-color: {{hex}}">
+                
+            </div>
+            <div class="card-section">
+                <h4>{{name}}</h4>
+                <p>HEX: {{hex}}</p>
+                <p>RGB: {{rgb}}</p>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div> 
+<h4>Alternates</h4>
+<p>If you need more colors.</p>
+<div class="row"> 
+  {{#each brand-colors.accessability-alt}}      
+    <div class="small-6 medium-4 large-3 columns">
+        <div class="card">
+            <div class="card-divider" style="background-color: {{hex}}">
+                
+            </div>
+            <div class="card-section">
+                <h4>{{name}}</h4>
+                <p>HEX: {{hex}}</p>
+                <p>RGB: {{rgb}}</p>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div> 

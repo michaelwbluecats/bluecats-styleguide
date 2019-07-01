@@ -1,0 +1,95 @@
+---
+layout: information
+meta-title: BlueCats - Logo usage
+meta-description: Stuff to do and how to use
+---
+
+<h1>Logos &amp; Usage</h1>
+<hr>
+<h3>Full Logo</h3>
+<p>Standard full-width logo for large placements - 35px or above</p>
+<p>
+    <strong>Smaller space?</strong> Use the roundels below
+</p>
+<table class="stacked">
+    <thead>
+        <tr>
+            <th width="200">Sample</th>
+            <th>Name</th>
+            <th width="150">PNG Link</th>
+            <th width="150">EPS Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each global.logoFull}}
+        <tr>
+            <td style="{{color}}"><img src="{{sample}}"> </td>
+            <td>{{name}}</td>
+            <td><a href="{{png}}">Link</a></td>
+            <td><a href="{{eps}}">Link</a></td>
+        </tr>        
+        {{/each}}
+    </tbody>
+</table>
+<hr>
+<h3>Roundel</h3>
+<p>Use for anything below 36px; accompany with text </p>
+<table class="stacked">
+    <thead>
+        <tr>
+            <th width="200">Sample</th>
+            <th>Name</th>
+            <th width="150">PNG Link</th>
+            <th width="150">EPS Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each global.logoRoundel}}
+        <tr>
+            <td style="{{color}}"><img src="{{sample}}" style="height:36px;"> </td> 
+            <td>{{name}}</td>
+            <td><a href="{{png}}">Link</a></td>
+            <td><a href="{{eps}}">Link</a></td>
+        </tr>        
+        {{/each}}         
+    </tbody>
+</table>
+
+<hr>
+<h3>Loop</h3>
+<p>BlueCats Loop Platform</p>
+<table class="stacked">
+    <thead>
+        <tr>
+            <th width="200">Sample</th>
+            <th>Name</th>
+            <th width="150">PNG Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each global.logoLoop}}
+        <tr>
+            <td style="{{color}}"><img src="{{sample}}" style="height:36px;"> </td> 
+            <td>{{name}}</td>
+            <td><a href="{{png}}">Link</a></td>
+        </tr>        
+        {{/each}}         
+    </tbody>
+</table>
+
+<hr>
+<h3>Usage examples</h3>
+<div class="row inline-list ">
+    <div class="medium-12 columns">
+        <img src="{{root}}/assets/img/logo/BCT001-BD-logo-v6-brand-Logo-usage.jpg">
+    </div>
+</div>
+<p>Use the roundel if below minimum size for full logo.</p>
+<h3 class="subheader">Placement</h3>
+<div class="row inline-list ">
+    <div class="medium-12 columns">
+        <img src="{{root}}/assets/img/logo/Logo-usage-2.jpg">
+    </div>
+</div>
+<p>Try to place the logo on the bottom left or right hand side of an image</p>
+<p>Use a background strip if the image is cluttered like the above.</p>
